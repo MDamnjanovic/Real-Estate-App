@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Realty.Data.ContainerConfig\Realty.Data.ContainerConfig.csproj" />
+    <ProjectReference Include="..\Realty.Data.EntityFramework\Realty.Data.EntityFramework.csproj" />
+    <ProjectReference Include="..\Realty.Entities\Realty.Entities.csproj" />
+    <ProjectReference Include="..\Realty.Factory\Realty.Factory.csproj" />
+    <ProjectReference Include="..\Realty.SQL\Realty.Data.csproj" />
+  </ItemGroup>
+
+</Project>

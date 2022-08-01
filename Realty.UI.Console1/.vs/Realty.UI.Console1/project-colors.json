@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0d69c9c-fafa-4b56-b411-b729bd5364a2": {
+      "ProjectGuid": "c0d69c9c-fafa-4b56-b411-b729bd5364a2",
+      "DisplayName": "Realty.Data",
+      "ColorIndex": 0
+    },
+    "2b29c10c-0a10-4c43-9709-504cb12a42da": {
+      "ProjectGuid": "2b29c10c-0a10-4c43-9709-504cb12a42da",
+      "DisplayName": "Realty.UI.WinForm",
+      "ColorIndex": 1
+    },
+    "71062a18-6356-41d9-9fc7-78f04b9115a0": {
+      "ProjectGuid": "71062a18-6356-41d9-9fc7-78f04b9115a0",
+      "DisplayName": "Realty.Data.EntityFramework",
+      "ColorIndex": 2
+    },
+    "b06c2684-23de-4b82-9356-b0a82cd26b36": {
+      "ProjectGuid": "b06c2684-23de-4b82-9356-b0a82cd26b36",
+      "DisplayName": "Realty.Data.EntityFramework1",
+      "ColorIndex": 3
+    },
+    "763491ac-7261-4cfb-b0fa-3ff081b7b294": {
+      "ProjectGuid": "763491ac-7261-4cfb-b0fa-3ff081b7b294",
+      "DisplayName": "Realty.Interfaces",
+      "ColorIndex": 4
+    },
+    "e399a679-e875-4310-acda-3c2bda7738ed": {
+      "ProjectGuid": "e399a679-e875-4310-acda-3c2bda7738ed",
+      "DisplayName": "Realty.Business",
+      "ColorIndex": 5
+    },
+    "c17cc16c-10b5-4a7c-ac77-63223af40f44": {
+      "ProjectGuid": "c17cc16c-10b5-4a7c-ac77-63223af40f44",
+      "DisplayName": "Realty.Entities",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "653c026d-587f-4dfe-8869-468d9358c7c5": {
+      "ProjectGuid": "653c026d-587f-4dfe-8869-468d9358c7c5",
+      "DisplayName": "Realty.UI.Console1",
+      "ColorIndex": 7
+    },
+    "8bd81642-90ed-44d0-8a5b-5dc67cfde459": {
+      "ProjectGuid": "8bd81642-90ed-44d0-8a5b-5dc67cfde459",
+      "DisplayName": "Realty.Factory",
+      "ColorIndex": 8
+    },
+    "d266cd64-8ca2-402d-8831-0ba12b271a21": {
+      "ProjectGuid": "d266cd64-8ca2-402d-8831-0ba12b271a21",
+      "DisplayName": "RealtyFactory",
+      "ColorIndex": 9
+    },
+    "edf6a280-14b8-4f05-ac03-87aa04a5bbf1": {
+      "ProjectGuid": "edf6a280-14b8-4f05-ac03-87aa04a5bbf1",
+      "DisplayName": "Realty.Factory",
+      "ColorIndex": 10
+    },
+    "f63b47ba-0b2b-450d-962a-681e8c307f78": {
+      "ProjectGuid": "f63b47ba-0b2b-450d-962a-681e8c307f78",
+      "DisplayName": "Realty.Data.ContainerConfig",
+      "ColorIndex": 11
+    },
+    "ede9cf0e-f5c5-47ad-8fa6-2b462144bfe2": {
+      "ProjectGuid": "ede9cf0e-f5c5-47ad-8fa6-2b462144bfe2",
+      "DisplayName": "Realty.UI.MVC",
+      "ColorIndex": 12
+    },
+    "4b1129f0-a30a-4244-98bc-5e30dac97128": {
+      "ProjectGuid": "4b1129f0-a30a-4244-98bc-5e30dac97128",
+      "DisplayName": "Realty.RESTservicesAPI",
+      "ColorIndex": 13
+    },
+    "788d437f-7be8-4a1f-9508-34d8b9d4b521": {
+      "ProjectGuid": "788d437f-7be8-4a1f-9508-34d8b9d4b521",
+      "DisplayName": "Realty.RESTserviceAPI",
+      "ColorIndex": 14
+    },
+    "b8c894b7-9f9c-4bf8-ad99-1ba5bc1d1e87": {
+      "ProjectGuid": "b8c894b7-9f9c-4bf8-ad99-1ba5bc1d1e87",
+      "DisplayName": "Realty.RESTserviceAPI",
+      "ColorIndex": 15
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 0
+    },
+    "2c67abb7-5635-48b1-b44c-1b082f602cea": {
+      "ProjectGuid": "2c67abb7-5635-48b1-b44c-1b082f602cea",
+      "DisplayName": "SignalRChat",
+      "ColorIndex": 1
+    },
+    "e4f3da66-9fc3-411a-8bbc-41d2949dbb26": {
+      "ProjectGuid": "e4f3da66-9fc3-411a-8bbc-41d2949dbb26",
+      "DisplayName": "SignalRChat",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

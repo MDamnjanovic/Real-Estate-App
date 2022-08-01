@@ -1,0 +1,7 @@
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Realty.RESTserviceAPI.exe
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Realty.RESTserviceAPI.dll
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Realty.RESTserviceAPI.deps.json
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Realty.RESTserviceAPI.runtimeconfig.json
+C:\Users\Q\source\repos\Realty.UI.Console1\Realty.RESTserviceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Realty.RESTserviceAPI.pdb

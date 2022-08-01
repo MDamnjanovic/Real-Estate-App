@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MNR1m93sPCvslbwnJKE+z0ZdkRaKxV69inOx4q8l2W27t8d/4PrC+1p3mP9O3zIo0LmeyKkRGPGN56zC5cy4SQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Q\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Q\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Q\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\Q\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

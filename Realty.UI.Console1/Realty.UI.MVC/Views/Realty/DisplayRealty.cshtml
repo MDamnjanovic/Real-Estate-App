@@ -1,0 +1,221 @@
+﻿@model DisplayRealtyViewModel
+
+@{
+    ViewData["Title"] = "Real Estate";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="~/lib/signalr/dist/browser/signalr.js" type="text/javascript"></script>
+</head>
+<h4>@Model.RealtyInfo</h4>
+<body style="color:#444;">
+    <div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3" style="border-right:1px solid rgb(211,211,211);">
+
+                </div>
+                <div class="col-lg-5" style="border-right:1px solid rgb(211,211,211);">
+                            <img src="../../@Model.ImageNames[0]" id='image' style="object-fit:cover; height:500px;width:700px; margin-bottom:20px;"/>
+                            <div class='owl-carousel owl-theme' id='owlCarouselImages'> 
+                                @foreach (var item in Model.ImageNames)
+                                {
+                                    <div class="item" id="@item" style="width:100px;height:100px;border-radius:5px;">
+                                        <img src="../../@item" style="height:inherit;width:inherit;object-fit:cover; border-radius:5px;border:2px solid rgb(0,0,0, 0.7);" alt="" />
+                                    </div>
+
+                                }
+                            </div>
+                            </div>
+                <div class="col-lg-4" id="chatWithAdvertiser">
+                    <h5>Contact Advertiser</h5>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.FirstName)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.FirstName)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.LastName)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.LastName)
+                    </dd>
+                    @if(@Model.Agent.TypeOfUser == "Agent")
+                    {
+                        <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agency.AgencyName)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agency.AgencyName)
+                    </dd>
+                    }
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.EmailAddress)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.EmailAddress)
+                    </dd>
+                    <button class="btn btn-primary" onclick="openForm()" style="margin-top:20px;">Send a message to advertiser</button>
+                    <div class="chat-popup" id="myForm" style="display:none;">
+                      <form action="" class="form-container" style="position:relative;border-radius:8px;
+                    box-shadow:rgb(0 0 0 / 9%) 0px 12px 10px, rgb(0 0 0 / 9%) 0px 12px 10px, rgb(0 0 0 / 9%) 0px 16px 12px, rgb(0 0 0 / 9%) 0px 12px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;">
+                            @if(@Model.User != null)
+                            {
+                                @Html.HiddenFor(m=>m.User.FirstName)
+                            }
+                        <input data-val="true"                                      
+                                    id="connectionId" 
+                                    type="hidden" 
+                                    value="" />
+                            <i class="fa fa-remove" onclick="closeForm()" style="position:absolute;top:5px;right:8px; height:5px;width:5px; font-size:12px;"></i>
+                        <h6>Chat with advertiser</h6>
+                        <div style="height:250px;width:100%;border-radius:5px; border:1px solid rgb(211,211,211); background-color:rgb(211,211,211)">
+                            <ul id="messagesList"></ul>
+                        </div>
+                        <textarea placeholder="Type.." style="font-size:0.8rem;margin-bottom:5px;" id="messageInput" required></textarea>
+                        <button type="button" id="sendButton" class="btn btn-success">Send</button>
+@*                        <button type="button" class="btn btn-danger" onclick="closeForm()">Close</button>
+*@                      </form>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="container-fluid" style="margin-top:80px;">
+            <div class="row">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-5" style="border:1px solid rgb(211,211,211); border-radius:12px;background-color:white;">
+                <dl class="row" id="displayRealtyData" style="display:inline-block;width:inherit;">
+                    <dt class="col-sm-4" style="margin-top:10px;">
+                        @Html.DisplayNameFor(model => model.Realty.SquareMeters)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Realty.SquareMeters)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Realty.Price)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Realty.Price)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Realty.ObjectType)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Realty.ObjectType)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Realty.SaleOrRent)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Realty.SaleOrRent)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Realty.PublishDate)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Realty.PublishDate)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.FirstName)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.FirstName)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.EmailAddress)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.EmailAddress)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Agent.ContactNumber)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Agent.ContactNumber)
+                    </dd>
+                </dl>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+                </div>
+                </div> 
+                    @*<div class="container">
+                        <div class="row">&nbsp;</div>
+                        <div class="row">
+                            <div class="col-2">User</div>
+                            <div class="col-4"><input type="text" id="userInput" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">Message</div>
+                            <div class="col-4"><input type="text" id="messageInput" /></div>
+                        </div>
+                        <div class="row">&nbsp;</div>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="button" id="sendButton" value="Send Message" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul id="messagesList"></ul>
+                        </div>
+                    </div>
+*@
+
+            <div>
+                <a asp-action="Index" asp-controller="Home">Back to Main Page</a>
+            </div>
+        </div>
+
+    <script>
+
+        $('#owlCarouselImages').owlCarousel({
+
+            items:5,
+            nav:false,
+            dots:false,
+            //loop:true,
+            //autoplay:true,
+            //autoplayHoverPause:true,
+            margin:20,
+            autoWidth:true
+            //center:true,
+            //lazyLoad: true,
+            //nav:true,
+            //animateIn:true
+        })
+            
+
+            function openForm() {
+                if(document.getElementById("myForm").style.display == "none"){
+                                document.getElementById("myForm").style.display = "block";
+                }
+                else{
+              document.getElementById("myForm").style.display = "none";
+                }
+            }   
+
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+    </script>
+        <script src="~/js/chat.js" type="text/javascript"></script>
+</body>
+</html>

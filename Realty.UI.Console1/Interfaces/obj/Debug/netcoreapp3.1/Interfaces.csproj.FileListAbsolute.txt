@@ -1,0 +1,10 @@
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.AssemblyReference.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\damnj\source\repos\Realty.UI.Console1\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb

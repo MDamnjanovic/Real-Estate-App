@@ -1,0 +1,12 @@
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.csproj.AssemblyReference.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.AssemblyInfoInputs.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.AssemblyInfo.cs
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.csproj.CoreCompileInputs.cache
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\bin\Debug\netcoreapp3.1\Realty.SQL.deps.json
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\bin\Debug\netcoreapp3.1\Realty.SQL.dll
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\bin\Debug\netcoreapp3.1\Realty.SQL.pdb
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\bin\Debug\netcoreapp3.1\Realty.Entities.dll
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\bin\Debug\netcoreapp3.1\Realty.Entities.pdb
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.dll
+C:\Users\damnj\source\repos\Realty.UI.Console1\Realty.SQL\obj\Debug\netcoreapp3.1\Realty.SQL.pdb

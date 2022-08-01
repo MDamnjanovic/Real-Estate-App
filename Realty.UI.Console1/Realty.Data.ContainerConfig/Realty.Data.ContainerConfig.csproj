@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Realty.Interfaces.csproj" />
+    <ProjectReference Include="..\Realty.Data.EntityFramework\Realty.Data.EntityFramework.csproj" />
+    <ProjectReference Include="..\Realty.SQL\Realty.Data.csproj" />
+  </ItemGroup>
+
+</Project>

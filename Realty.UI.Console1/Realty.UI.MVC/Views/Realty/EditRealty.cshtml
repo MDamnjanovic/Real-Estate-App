@@ -1,0 +1,254 @@
+﻿@model EditRealtyViewModel
+
+@{
+    ViewData["Title"] = "Edit Real Estate";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<h1>EditRealty</h1>
+<body>
+<form asp-action="EditAddressRealtyClient" asp-controller="Realty" method="post" style="margin-top:10px;">
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="row" style="height:100%;">
+                <div class="col-lg-3" style="border:1px solid rgb(211,211,211);border-radius:8px; background-color: rgb(241, 239, 207, 0.2);">
+                    <br />
+                    <h6>Edit Uploaded Images</h6>
+                    <div class="container" id="uploadedList" style="background-color:white; position:relative;margin:auto;width:90%;
+                    border:2px solid rgb(211,211,211); border-radius:7px;box-shadow:8px 8px rgb(245,245,245); overflow:scroll; height:200px;
+                    box-shadow:rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 12px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;">
+                        <ul id="imagesList" style="margin-top:3px;">
+                            @foreach (var item in Model.ImageNamesList)
+                            {
+                                var displayName = @item.Remove(0, 18);
+                                <li id="@item">
+                                    @displayName
+                                    <i class="fa fa-remove" id="remove" style="float:right; font-size:11px; z-index:1;"></i>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div id="divImageDisplay" style="position:relative; margin:auto;width:90%; height:300px; margin-top:20px;">
+                        <img id="imageDisplay" style="position:absolute;width:100%; height:inherit;background-size:cover; object-fit:cover; border-radius:4px; border:2px solid rgb(0,0,0, 0.4);
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;" src="../../@Model.ImageNamesList[0]"/>
+                        <a><i class="fa fa-remove" id="remove" style="position:absolute;top:6px;right:8px; height:6px;width:6px; font-size:12px; z-index:1;"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="border:1px solid rgb(211,211,211);border-radius:8px; background-color:rgb(241, 239, 207, 0.2);">
+                                    <br />
+                    <h6>Upload New Images</h6>
+                    <div class="container" id="uploadList" style="background-color:white;margin-top:10px; width:inherit; 
+                    border:2px solid rgb(211,211,211); border-radius:7px;box-shadow:8px 8px rgb(245,245,245); overflow:scroll; height:200px;
+                    box-shadow:rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 12px 8px, rgb(0 0 0 / 9%) 0px 32px 16px">
+                        <ul id="imagesToUploadList" style="margin-top:3px;">
+                            
+                        </ul>
+                    </div>
+                    <div class="custom-file" style="margin-top:25px; width:inherit; border:2px solid rgb(211,211,211); border-radius:7px;">
+                        <input asp-for="@Model.Images" id="file-upload" type="file" class="custom-file-input" multiple />
+                        <label asp-for="@Model.Images" class="custom-file-label" style="">Choose images</label>
+                    </div>
+                    
+                </div>
+    <div class="col-lg-6" style="border:1px solid rgb(211,211,211);border-radius:8px;background-color: rgb(241, 239, 207, 0.2);">
+            @Html.HiddenFor(m => m.Realty.Id)
+            @Html.HiddenFor(m => m.RealtyAddress.Id)
+            @Html.HiddenFor(m => m.AgentClient.Id)
+
+            <div class="form-group" style="margin-top:10px;">
+                <label asp-for="@Model.RealtyAddress.AddressName" class="control-label"></label>
+                <input asp-for="@Model.RealtyAddress.AddressName" class="form-control" placeholder="@Model.RealtyAddress.AddressName" />
+                <span asp-validation-for="@Model.RealtyAddress.AddressName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.RealtyAddress.AddressNumber" class="control-label"></label>
+                <input asp-for="@Model.RealtyAddress.AddressNumber" class="form-control" placeholder="@Model.RealtyAddress.AddressNumber" />
+                <span asp-validation-for="@Model.RealtyAddress.AddressNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Realty.SquareMeters" class="control-label"></label>
+                <input asp-for="@Model.Realty.SquareMeters" class="form-control" placeholder="@Model.Realty.SquareMeters"/>
+                <span asp-validation-for="@Model.Realty.SquareMeters" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Realty.Price" class="control-label"></label>
+                <input asp-for="@Model.Realty.Price" class="form-control" placeholder="@Model.Realty.Price"/>
+                <span asp-validation-for="@Model.Realty.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Realty.ObjectType" class="control-label"></label>
+                <input asp-for="@Model.Realty.ObjectType" class="form-control" placeholder="@Model.Realty.ObjectType"/>
+                <span asp-validation-for="@Model.Realty.ObjectType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Realty.SaleOrRent" class="control-label"></label>
+                <input asp-for="@Model.Realty.SaleOrRent" class="form-control" placeholder="@Model.Realty.SaleOrRent"/>
+                <span asp-validation-for="@Model.Realty.SaleOrRent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AgentClient.FirstName" class="control-label"></label>
+                <input asp-for="@Model.AgentClient.FirstName" class="form-control" placeholder="@Model.AgentClient.FirstName"/>
+                <span asp-validation-for="@Model.AgentClient.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AgentClient.LastName" class="control-label"></label>
+                <input asp-for="@Model.AgentClient.LastName" class="form-control" placeholder="@Model.AgentClient.LastName"/>
+                <span asp-validation-for="@Model.AgentClient.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AgentClient.EmailAddress" class="control-label"></label>
+                <input asp-for="@Model.AgentClient.EmailAddress" class="form-control" placeholder="@Model.AgentClient.EmailAddress"/>
+                <span asp-validation-for="@Model.AgentClient.EmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.AgentClient.ContactNumber" class="control-label"></label>
+                <input asp-for="@Model.AgentClient.ContactNumber" class="form-control" placeholder="@Model.AgentClient.ContactNumber"/>
+                <span asp-validation-for="@Model.AgentClient.ContactNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" style="margin:auto;" value="Edit" class="btn btn-primary" />
+            </div>
+    </div>
+</div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+         $('#file-upload').change(function() {
+           var input = document.getElementById('file-upload');
+           var output = document.getElementById('imagesToUploadList');
+
+           output.append = '<ul>';
+           for (var i = 0; i < input.files.length; ++i) {
+               //output.append += '<li>' + input.files.item(i).name + '<i class="fa fa-remove" style="float:right; font-size:11px; z-index:1;"></i></li>';
+                output.innerHTML += '<li>' + input.files.item(i).name + '<i class="fa fa-remove" style="float:right; font-size:11px; z-index:1;"></i></li>';
+                }
+                output.innerHTML += '</ul>';
+                $('#imagesToUploadList li').click(function(e){
+                if(e.target.tagName == 'LI'){
+                     $('ul li').css('opacity', '1');
+                     $(this).css('opacity', '0.75');
+                }
+                if(e.target.tagName == "I"){
+                            if($(this).next('LI').length == 0)
+                            {
+                               $('ul li').css('opacity', '1');
+                                $(this).prev('LI').css('opacity', '0.75');
+                                $(this).closest('LI').remove();
+                            }
+                            else
+                            {
+                            $('ul li').css('opacity', '1');
+                            $(this).next('LI').css('opacity', '0.75');
+                            $(this).closest('LI').remove();
+                            }
+                }
+                    });
+                });
+
+         $(document).ready(function()
+            {
+            $('#imagesToUploadList li').click(function(e)
+            {
+                if(e.target.tagName == 'LI'){
+                     $('ul li').css('opacity', '1');
+                     $(this).css('opacity', '0.75');
+                }
+                if(e.target.tagName == "I"){
+                            if($(this).next('LI').length == 0)
+                            {
+                               $('ul li').css('opacity', '1');
+                                $(this).prev('LI').css('opacity', '0.75');
+                                $(this).closest('LI').remove();
+                                removeFileFromFileInput($(this).attr('id'));
+                            }
+                            else
+                            {
+                            $('ul li').css('opacity', '1');
+                            $(this).next('LI').css('opacity', '0.75');
+                            $(this).closest('LI').remove();
+                            removeFileFromFileInput($(this).attr('id'));
+                            }
+                }
+            });
+            });
+
+           function removeFileFromFileInput(id){
+                var fileInput = docuemnt.getElementById('file-upload');
+                fileInput.addEventListener('change', () => {
+                  const fileListArr = Array.from(input.files);
+                  var index = fileListArr.indexOf(id);
+                    if (index !== -1) {
+                    array.splice(index, 1);
+                    }
+                  const obj = Object.assign({}, fileListArr );
+                });
+            };
+
+         $(document).ready(function()
+            {
+            $('#imagesList li').click(function(e)
+            {
+                if(e.target.tagName == 'LI'){
+                     var img = document.getElementById('imageDisplay');
+                     img.src='../../' + $(this).attr('id');
+                     $('ul li').css('opacity', '1');
+                     $(this).css('opacity', '0.75');
+                }
+                if(e.target.tagName == "I"){
+                    var img = document.getElementById('imageDisplay');
+                    if($('ul').children().length>1){
+                            if($(this).next('LI').length == 0)
+                            {
+                               img.src='../../' + $(this).prev('LI').attr('id');
+                               $('ul li').css('opacity', '1');
+                                $(this).prev('LI').css('opacity', '0.75');
+                                $(this).closest('LI').remove();
+                                alert($(this).attr('id'));
+                                deleteImageFileFromDirectory($(this).attr('id'));
+                            }
+                            else
+                            {
+                            img.src='../../' + $(this).next('LI').attr('id');
+                            $('ul li').css('opacity', '1');
+                            $(this).next('LI').css('opacity', '0.75');
+                            $(this).closest('LI').remove();
+                            alert($(this).attr('id'));
+                            deleteImageFileFromDirectory($(this).attr('id'));
+                            }
+                    }
+                    else if($('ul').children().length == 1){
+                        $(this).closest('LI').remove();
+                        deleteImageFileFromDirectory($(this).attr('id'));
+                        alert('test');
+                        img.src = '../../images/realtyBlankImage.jpg';
+                        img.style.opacity='0.6';
+                    }
+                }
+            });
+            });
+
+            function deleteImageFileFromDirectory(id){
+                    $.ajax({
+                        url: '/Realty/DeleteImageFile',
+                        type: 'POST',
+                        data: {fileName: id},
+                        dataType: "application/json",
+                        success: function () {
+                        alert('Deletion successful');
+                    }
+                    });
+            };
+</script>
+</body>
+</html>
+            

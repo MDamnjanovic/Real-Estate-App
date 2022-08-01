@@ -1,0 +1,545 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.Console1\\Realty.UI.Console1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
+        "projectName": "Realty.Interfaces",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\Realty.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\Realty.Business.csproj",
+        "projectName": "Realty.Business",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\Realty.Business.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
+        "projectName": "Realty.Data.ContainerConfig",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
+        "projectName": "Realty.Data.EntityFramework",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework.Functions": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+        "projectName": "Realty.Entities",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj",
+        "projectName": "Realty.Factory",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj",
+        "projectName": "Realty.Data",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.Console1\\Realty.UI.Console1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.Console1\\Realty.UI.Console1.csproj",
+        "projectName": "Realty.UI.Console1",
+        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.Console1\\Realty.UI.Console1.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.Console1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\Realty.Business.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Business\\Realty.Business.csproj"
+              },
+              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

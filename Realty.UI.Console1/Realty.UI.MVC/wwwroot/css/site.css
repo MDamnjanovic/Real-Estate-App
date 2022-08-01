@@ -1,0 +1,378 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+.navbar {
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1EM;
+    font-family: Verdana;
+    height:inherit;
+}
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 17.6px;
+    font-family: Verdana;
+    border: none;
+    height: inherit;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: rgb(188, 203, 222, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    overflow-y: scroll;
+    max-height:200px;
+}
+
+.dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+}
+
+.dropdown-content a:hover {
+            background-color: #ddd;
+}
+.show {
+    display: block;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height 
+    background-image: url('../images/wallpaper3.png');*/
+    background-color: rgb(153, 126, 180, 0.13);
+    margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+html, body {
+    position:relative;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.navbar-brand {
+    list-style:none;
+    height:auto;
+}
+.navbar-brand {
+    /*text-align: justify; font-size: 1.5EM; font-family: Verdana; height: 75px;*/
+    border: 2px solid transparent;
+    border-radius:5px;
+}
+
+.navbar-brand:hover {
+        border-color: rgb(188, 203, 222);
+}
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: normal;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight:normal;
+    font-size: 0.9em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#uploadedList ul li {
+    list-style: none;
+    border: 2px solid rgb(2, 117, 216, 0.4);
+    background-color: rgb(2, 117, 216, 0.1);
+    border-radius: 5px;
+    margin-bottom: 3px;
+    left: 0px;
+}
+
+#uploadList ul li {
+    list-style: none;
+    border: 2px solid rgb(2, 117, 216, 0.4);
+    background-color: rgb(2, 117, 216, 0.1);
+    border-radius: 5px;
+    margin-bottom: 3px;
+    left: 0px;
+}
+.fa:hover {
+    cursor: pointer;
+}
+input {
+    /*box-shadow: rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 12px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;*/
+    box-shadow: rgba(0, 0, 80, 0.16) 0px 10px 36px 0px, rgba(0, 0, 80, 0.06) 0px 0px 0px 1px;
+}
+dd {
+    margin-bottom: 20px;
+    font-size: 0.73rem;
+    border-bottom:1px solid rgb(211,211,211);
+}
+dt {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    list-style-type:circle;
+}
+
+
+/*.item {
+    opacity: 0.4;
+    transition: .4s ease all;
+    margin: 0 20px;
+    transform: scale(.8);
+}
+
+@media(max-width:1000px) {
+    .item {
+        margin: 0;
+        transform: scale(.9)
+    }
+}
+
+.active .item {
+    opacity: 1;
+    transform: scale(1);
+}*/
+
+/*body {
+    padding: 0;
+    margin: 80px 0 0 0;
+    font-family: Merriweather;
+    background: #f0e8d5;
+}*/
+
+/*.owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.inner {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+    .inner a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 2px solid rgba(255,255,255,0.5);
+        transition: .3s ease border-color
+    }
+
+        .inner a:hover {
+            border-color: #fff;
+        }
+
+.black .inner a {
+    color: #000;
+    border-color: rgba(0,0,0,0.4)
+}
+
+    .black .inner a:hover {
+        border-color: #000;
+    }
+
+.owl-carousel:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4%;
+    pointer-events: none;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/aett_logo_slider.png) no-repeat center 50%;
+    background-size: 100% auto;
+}
+
+.owl-controls {
+    position: absolute;
+    margin-top: 300px;
+}*/
+
+{
+    box-sizing: border-box;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    border-radius:5px;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+    /* Full-width textarea */
+    .form-container textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        border-radius:3px;
+        background: #f1f1f1;
+        resize: none;
+        height: 50px;
+    }
+
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+    /* Set a style for the submit/login button */
+    .form-container .btn {
+        color: white;
+        text-align:center;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 1;
+        height:35px;
+
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover, .open-button:hover {
+        opacity: 0.9;
+    }
+
+
+
+

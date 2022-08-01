@@ -1,0 +1,125 @@
+﻿@model Realty.Entities.AgentClientEntities
+@{
+    ViewData["Title"] = "Login";
+}
+
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<body>
+    <div class="container">
+        <div class="row">
+			<div class="col-md-5 mx-auto">
+			<div id="first" style="display:none;">
+				<div class="myform form ">
+					 <div class="logo mb-3">
+						 <div class="col-md-12 text-center">
+							<h1>Login</h1>
+						 </div>
+					</div>
+                   <form asp-controller="Home" asp-action="SignIn" method="get">
+                           <div class="form-group">
+                              <input asp-for="@Model.EmailAddress" class="form-control" placeholder="E-mail address">
+                              <span asp-validation-for="@Model.EmailAddress" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <input asp-for="@Model.PassCode" class="form-control" placeholder="Password">
+                              <span asp-validation-for="@Model.PassCode" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                           </div>
+                           <div class="col-md-12 text-center ">
+                              <button type="submit" class=" btn btn-block btn-primary">Login</button>
+                           </div>
+                           <div class="col-md-12 ">
+                           </div>
+                           <div class="col-md-12 mb-3">
+                              <p class="text-center">
+                                 <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
+                                 </i> Signup using Google
+                                 </a>
+                              </p>
+                           </div>
+                           <div class="form-group">
+                              <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                           </div>
+                        </form>
+                 
+				</div>
+			</div>
+			  <div id="second">
+			      <div class="myform form">
+                        <div class="logo mb-3">
+                           <div class="col-md-12 text-center">
+                              <h1>Register</h1>
+                           </div>
+                        </div>
+                        <form asp-controller="Home" asp-action="Register" method="post">
+                           <div class="form-group">
+                              <input asp-for="@Model.FirstName" class="form-control" placeholder="First Name">
+                              <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <input asp-for="@Model.LastName" class="form-control" placeholder="Last Name">
+                              <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+                           </div>              
+                           <div class="form-group">
+                              <input asp-for="@Model.ContactNumber" class="form-control" placeholder="Contact number">
+                              <span asp-validation-for="@Model.ContactNumber" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <input asp-for="@Model.CityName" class="form-control" placeholder="City">
+                              <span asp-validation-for="@Model.CityName" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <input asp-for="@Model.EmailAddress" class="form-control" placeholder="E-mail address">
+                              <span asp-validation-for="@Model.EmailAddress" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <input asp-for="@Model.PassCode" class="form-control" placeholder="Password">
+                              <span asp-validation-for="@Model.PassCode" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                              <select  asp-for="@Model.TypeOfUser" class="form-control">
+                                                <option>
+                                                    Client
+                                                </option>
+                                                <option>
+                                                    Agent
+                                                </option>
+                              </select>
+                              <span asp-validation-for="@Model.TypeOfUser" class="text-danger"></span>
+                           </div>
+                           <div class="col-md-12 text-center mb-3">
+                                        <button type="submit" class="btn btn-success">Sign Up</button>
+                           </div>
+                           <div class="col-md-12 ">
+                              <div class="form-group">
+                                 <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                              </div>
+                              </div>
+                        </form>
+                     </div>
+			</div>
+		</div>
+        </div>
+      </div>   
+       <script>
+
+            $("#signup").click(function() {
+            $("#first").fadeOut("fast", function() {
+            $("#second").fadeIn("fast");
+            });
+            });
+
+            $("#signin").click(function() {
+            $("#second").fadeOut("fast", function() {
+            $("#first").fadeIn("fast");
+            });
+            });
+
+       </script>  
+</body>
+
