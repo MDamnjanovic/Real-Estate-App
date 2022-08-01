@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {}
+    "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+    "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
         "projectName": "Realty.Interfaces",
-        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
+        "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
         "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
-                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+    "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
         "projectName": "Realty.Data.EntityFramework",
-        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
+        "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,11 +86,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+              "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
               },
-              "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
-                "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
+              "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+                "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
+    "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
         "projectName": "Realty.Entities",
-        "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+        "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
         "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WqbtyS/jQy1fsgW+23Ujf/5atS1M3SzAM8XhmVEIrbCyhDerhZTW8ILCVRTqlqFHo7axyJ3EZ19NsHdXAEKzxg==",
+  "dgSpecHash": "O/WRA2i7YwM1Ly4URGRnwnc5z+Bxh7XoZWG/ccH7oJqiVJIgg+IBB1wGZ9QTbl4iqXSHJn/9KMG+DugkCbM/wQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.UI.WinForm\\Realty.UI.WinForm.csproj",
+  "projectFilePath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.UI.WinForm\\Realty.UI.WinForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Q\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\Q\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",

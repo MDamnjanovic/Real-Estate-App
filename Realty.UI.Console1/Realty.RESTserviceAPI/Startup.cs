@@ -27,8 +27,6 @@ namespace Realty.RESTserviceAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddDbContext<RealtyUIMVCContext>(options =>
-            //       options.UseSqlServer(Configuration.GetConnectionString("RealtyUIMVCContext")));
             
             services.AddSwaggerGen(options =>
             {

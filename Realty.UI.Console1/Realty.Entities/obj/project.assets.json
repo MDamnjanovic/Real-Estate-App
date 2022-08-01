@@ -159,11 +159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
       "projectName": "Realty.Entities",
-      "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
+      "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\Realty.Entities.csproj",
       "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",

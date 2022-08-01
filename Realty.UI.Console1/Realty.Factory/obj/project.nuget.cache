@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0b94DF1BpIa4/CbAUj3ITK9bY8uRd74uq1CIByvNS79ljKCH6bz37hZsdlK8/AQEJuQE5lTvToQyziSs1V0dXw==",
+  "dgSpecHash": "YVMxPEz2cfUOquoxt+CHXI7tBEmbhSdwaqdlIMwYp6HH68dH48BHaTdnJK0k8Skvz5IkHtniRDkcu4rG6JND0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj",
+  "projectFilePath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Factory\\Realty.Factory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Q\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",
     "C:\\Users\\Q\\.nuget\\packages\\entityframework.functions\\1.5.0\\entityframework.functions.1.5.0.nupkg.sha512",

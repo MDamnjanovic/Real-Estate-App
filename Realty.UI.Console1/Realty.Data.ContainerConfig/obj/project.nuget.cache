@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B+csqBSxbT+7bPIig+1n3V20ZyXSxUFwiv/weBrv9xkF0ccDrzZvElc5472nZ8sJcxqwoDYAh1Ajh4oPrgtAvw==",
+  "dgSpecHash": "GOOs/kNJdO9hl6vw/Fl4qjvn5JbzIqT53EDnXQoYEZdasLJKo7az5+aHBxwMk0DaWdrSnImIdZY7Vnleu3yt/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
+  "projectFilePath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Q\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\Q\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6mA8UHtyWIdavFV/S0YifuUCA4TqXwMP2T+bvWwVd/pRXL8/5yV7aTx5IYu4gUGCXdRS5R1hwamfC3c69S4WJQ==",
+  "dgSpecHash": "DLeADpCBO4J5imk2dt4wgSUuec0hy6G9mq4hnXF+csfdv00jA2gTl/Ld4qAq81exy6K82yqmR0N574BzU3cF7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Q\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Q\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

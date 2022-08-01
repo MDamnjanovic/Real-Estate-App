@@ -6427,11 +6427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
+      "projectUniqueName": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
       "projectName": "Realty.Data.ContainerConfig",
-      "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
+      "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\Realty.Data.ContainerConfig.csproj",
       "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\obj\\",
+      "outputPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.ContainerConfig\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6448,14 +6448,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
+            "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Interfaces\\Realty.Interfaces.csproj"
             },
-            "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj"
+            "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.Data.EntityFramework\\Realty.Data.EntityFramework.csproj"
             },
-            "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
-              "projectPath": "C:\\Users\\Q\\Desktop\\app\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj"
+            "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj": {
+              "projectPath": "C:\\Users\\Q\\Documents\\GitHub\\Real-Estate-App\\Realty.UI.Console1\\Realty.SQL\\Realty.Data.csproj"
             }
           }
         }

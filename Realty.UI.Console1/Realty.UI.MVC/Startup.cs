@@ -42,9 +42,7 @@ namespace Realty.UI.MVC
                 });
 
             services.AddControllersWithViews();
-            services.AddSignalR();
-            //services.AddDbContext<RealtyDbContext>(options =>
-            //options.UseSqlServer(Configuration.GetConnectionString("RealtyUIMVCContext"))); 
+            services.AddSignalR(); 
 
             services.AddHttpClient(name: "",
                 configureClient: options =>
